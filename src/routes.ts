@@ -16,6 +16,13 @@ const routes: RouteWithRoot[] = [
     view: 'default_view',
     root: 'default_root',
   },
+  {
+    path: `/user`,
+    modal: 'user_modal', // Модальное окно
+    panel: 'home_panel',
+    view: 'default_view',
+    root: 'default_root',
+  },
 ];
 
 const router = createHashRouter(routes);

@@ -10,6 +10,7 @@ import {
   SimpleCell,
   NavIdProps,
   Button,
+  Avatar,
 } from '@vkontakte/vkui';
 import { useRouteNavigator } from '@vkontakte/vk-mini-apps-router';
 
@@ -19,7 +20,6 @@ export const Home: FC<NavIdProps> = memo((props: NavIdProps) => {
     <Panel {...props}>
       <PanelHeader>Home</PanelHeader>
       <Group header={<Header mode="secondary">Items</Header>}>
-        <SimpleCell>Привет</SimpleCell>
         <SimpleCell>Ответ</SimpleCell>
         <Button onClick={() => routeNavigator.push('/about')}>
           На главную

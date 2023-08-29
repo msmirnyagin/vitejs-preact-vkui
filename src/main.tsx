@@ -6,7 +6,7 @@ import {
   AppRoot,
   WebviewType,
 } from '@vkontakte/vkui';
-import '@vkontakte/vkui/dist/vkui.css';
+import '@vkontakte/vkui/dist/cssm/styles/themes.css';
 import { RouterProvider } from '@vkontakte/vk-mini-apps-router';
 import bridge from '@vkontakte/vk-bridge';
 import router from './routes';
